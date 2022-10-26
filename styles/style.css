@@ -1,8 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 /* ----------------------Общий блок logo---------------------- */
@@ -49,10 +54,12 @@
 
 .header__link {
   text-decoration: none;
+  color: #4daffa;
 }
 
-/* .header__link:visited {
-} */
+.header__link:visited {
+  color: cornflowerblue;
+}
 
 .header__main-illustration {
   height: 608px;
@@ -73,7 +80,8 @@
 }
 
 /* -------------------------Content-------------------- */
-.content {}
+.content {
+}
 
 /* -------------------------Section 1------------------------- */
 .description {
@@ -90,7 +98,6 @@
 
 .two-columns__brief {
   width: 175px;
-  margin-top: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -103,12 +110,10 @@
 }
 
 .two-columns__main-text p {
-  margin-top: 0;
   margin-bottom: 30px;
 }
 
 .two-columns__main-text p:last-child {
-  margin-bottom: 0;
 }
 
 .two-columns__paragraph {
@@ -134,7 +139,6 @@
 
 .section-title {
   width: 60%;
-  margin-top: 0;
   margin-bottom: 20px;
   text-align: center;
   line-height: 1.15;
@@ -144,7 +148,6 @@
 
 .section-subtitle {
   width: 60%;
-  margin-top: 0;
   margin-bottom: 60px;
   text-align: center;
   line-height: 34px;
@@ -161,15 +164,20 @@
 
 .table__cell {
   width: 250px;
+}
+
+.table__cell_theme_white {
   margin-bottom: 60px;
 }
 
 .table__heading {
-  margin-top: 0;
-  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+}
+
+.table__heading_theme_white {
+  margin-bottom: 20px;
 }
 
 .table__text {
@@ -183,15 +191,65 @@
   padding-top: 20px;
 }
 
-.feynman {}
+/* ----------------------Section 3----------------------- */
+.feynman {
+  height: 890px;
+  position: relative;
+}
+.feynman__title {
+  width: 648px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+}
+.feynman__subtitle {
+  text-align: center;
+  margin: 0 auto;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  position: relative;
+  z-index: 1;
+}
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #4daffa;
+  text-decoration: none;
+}
 
-.kaufman {}
+.feynman__link:visited {
+  color: cornflowerblue;
+}
+.feynman__img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 
-.footer {}
+/* ---------------------------Section 4----------------------- */
 
-.logo {}
+.kaufman {
+}
 
-.logo_place_footer {}
+.footer {
+}
+
+.logo {
+}
+
+.logo_place_footer {
+}
 
 .table__cell_theme_dark {
   width: 200px;
