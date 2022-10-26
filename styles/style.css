@@ -114,6 +114,7 @@
 }
 
 .two-columns__main-text p:last-child {
+  margin-bottom: 0;
 }
 
 .two-columns__paragraph {
@@ -137,9 +138,9 @@
   flex-direction: column;
 }
 
+/* ----------------------Общий блок (таблица)------------------- */
 .section-title {
   width: 60%;
-  margin-bottom: 20px;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -148,7 +149,6 @@
 
 .section-subtitle {
   width: 60%;
-  margin-bottom: 60px;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -160,24 +160,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .table__cell {
   width: 250px;
 }
 
-.table__cell_theme_white {
-  margin-bottom: 60px;
-}
-
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
-}
-
-.table__heading_theme_white {
-  margin-bottom: 20px;
 }
 
 .table__text {
@@ -189,6 +182,19 @@
 .table__span {
   display: inline-block;
   padding-top: 20px;
+}
+/* -------------------------------------------------- */
+
+.section__title_theme_white {
+  margin-bottom: 20px;
+}
+
+.table__cell_theme_white {
+  margin-top: 60px;
+}
+
+.table__heading_theme_white {
+  margin-bottom: 20px;
 }
 
 /* ----------------------Section 3----------------------- */
@@ -232,6 +238,8 @@
   color: cornflowerblue;
 }
 .feynman__img {
+  width: 867px;
+  height: 637px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -240,6 +248,37 @@
 /* ---------------------------Section 4----------------------- */
 
 .kaufman {
+  padding: 90px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+}
+
+.section-title_theme_dark {
+  z-index: 1;
+  margin-bottom: 20px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+}
+
+.table__heading_theme_dark {
+  margin-bottom: 20px;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
 }
 
 .footer {
@@ -249,11 +288,4 @@
 }
 
 .logo_place_footer {
-}
-
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }
