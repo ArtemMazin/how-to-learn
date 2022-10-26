@@ -78,9 +78,6 @@
   background-color: #2f80ed;
 }
 
-/* -------------------------Content-------------------- */
-.content {}
-
 /* -------------------------Section 1------------------------- */
 .description {
   display: flex;
@@ -313,18 +310,12 @@
   flex-basis: 711px;
 }
 
-.logo {}
-
-.logo_place_footer {}
-
 .footer__author {
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
-
-.footer__column_content_info {}
 
 .footer__column-heading {
   margin: 0 0 20px 0;
@@ -358,4 +349,3 @@
   margin-bottom: 0;
 }
 
-.footer__column_content_social {}
