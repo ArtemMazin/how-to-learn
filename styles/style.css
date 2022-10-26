@@ -281,11 +281,39 @@
   right: -210px;
 }
 
+/* ----------------------footer------------------------------ */
 .footer {
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 40px 0;
+  background-color: black;
+  color: white;
 }
-
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
 .logo {
 }
-
 .logo_place_footer {
+}
+.footer__author {
+}
+.footer__column_content_info {
+}
+.footer__column-heading {
+}
+.footer__column-links {
+}
+.footer__column-link {
+}
+.footer__column_content_social {
 }
