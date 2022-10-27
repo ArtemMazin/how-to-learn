@@ -198,6 +198,7 @@
   min-height: 890px;
   position: relative;
   background-color: #f2f2f2;
+  text-align: center;
 }
 
 .feynman__title {
@@ -214,8 +215,8 @@
 }
 
 .feynman__subtitle {
-  text-align: center;
-  margin: 0 auto;
+  display: inline-block;
+  margin: 0;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -338,6 +339,7 @@
   font-weight: normal;
   text-decoration: none;
   display: flex;
+  color: white;
 }
 
 .footer__column-link:visited {
