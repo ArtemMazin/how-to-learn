@@ -178,6 +178,7 @@
 /* -------------------------------------------------- */
 .table_theme_white {
   margin: 0;
+  padding: 0;
 }
 
 .section__title_theme_white {
@@ -268,6 +269,7 @@
 
 .table_theme_dark {
   margin: 0;
+  padding: 0;
 }
 
 .section-title_theme_dark {
@@ -296,6 +298,7 @@
   position: absolute;
   top: 0;
   right: -210px;
+  background-size: cover;
 }
 
 /* ----------------------footer------------------------------ */
