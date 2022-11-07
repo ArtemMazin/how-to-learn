@@ -51,8 +51,6 @@
 
 @import url(../blocks/section-subtitle/section-subtitle.css);
 
-@import url(../blocks/root/root.css);
-
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
