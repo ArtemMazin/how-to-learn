@@ -19,6 +19,14 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+@import url(../blocks/techniques/techniques.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__description/cards__description.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_white.css);
@@ -64,3 +72,11 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
 @import url(../blocks/rotation/rotation.css);
+
+
+
+
+
+
+
+
