@@ -1,14 +1,10 @@
 .feynman__link {
   position: absolute;
   top: 50%;
-  right: 0;
-  margin-right: 48px;
+  right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
-}
-.feynman__link:visited {
-  color: cornflowerblue;
 }

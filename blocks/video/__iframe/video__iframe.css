@@ -1,5 +1,8 @@
 .video__iframe {
+  width: 515px;
+  height: 316px;
   margin: 0 20px 0 0;
+  border: none;
 }
 .video__iframe:last-child {
   margin: 0;

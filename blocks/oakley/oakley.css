@@ -2,7 +2,5 @@
   display: flex;
   justify-content: center;
   padding-top: 160px;
-  /* margin: -60px; Упс! */
-  margin-top: -60px;
   background-color: #f2f2f2;
 }
